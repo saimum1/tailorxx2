@@ -902,14 +902,13 @@ border-style: dashed;
 ----------------------------------------------------------------------------------*/
 .cng-btn{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
-    align-items: center;
-    position: relative;
-    padding: 0 auto;
+    padding:0 5px;
     margin: 0 auto;
     background:url('../images/bg/header_bg.jpg') no-repeat;
-    gap: 200px;
+    align-items: center;
+   
 }
 .cng-btn>h1{
     color: #FFFFFF;

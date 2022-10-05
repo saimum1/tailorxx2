@@ -692,6 +692,8 @@ gap: 5px;
 	
 }	
 	@media (max-width:480px){
+
+      
 	.login_signup_cover {
 		width: 90%;
 	}
