@@ -900,11 +900,11 @@ border-style: dashed;
 /*----------------------------------------------------------------------------------
 4. Home Slider section css Start
 ----------------------------------------------------------------------------------*/
-.cng-btn{
+.cng-btn{ 
     display: flex;
     justify-content: space-between;
     text-align: center;
-    padding:0 5px;
+    padding:10px;
     margin: 0 auto;
     background:url('../images/bg/header_bg.jpg') no-repeat;
     align-items: center;
