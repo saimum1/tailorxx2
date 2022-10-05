@@ -1,0 +1,515 @@
+
+.mens-section-start{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: stretch;
+    text-align: inherit;
+}
+
+
+.container{
+ 
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding:0px;
+}
+ #heading-mens-sec{
+    text-align: center;
+    text-transform: uppercase;
+    color: #d8aa59;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 40px;
+    position: relative;
+    top: 40px;
+    margin: 0px;
+    z-index: -999;
+  
+
+} 
+
+.actual-container-section{
+
+    margin-top: 25px;
+    display: flex;
+    width:100%;
+    height: max-content;
+   justify-content: space-between;
+   align-items: stretch;
+  
+   
+
+}
+
+
+
+.cards-container{
+
+flex: 2;
+width:100%;
+display: flex;
+gap: 10px;
+background-color:transparent;
+left: 9px;
+position: relative;
+
+}
+
+.sidebar-section{
+flex: 1;
+width:100%;
+right: 0px;
+background-color: transparent;
+position: relative;
+
+}
+
+
+.card-size>div{
+    height: 400px;
+    width: 220px;
+
+}
+
+
+
+.darrow{
+    width: 18px;
+    height: 15px;
+    font-weight: 900;
+    color: white;
+    background-color: transparent;
+    
+}
+
+
+.onfull{
+    display: none;
+}
+
+
+.tl_main_footer_section{
+    padding: 60px;
+}
+
+
+ @media screen and (max-width:370px){
+    .checklist_category{
+          
+            
+        background-color: transparent;
+        transition:all 600ms ;
+        max-height:0px;
+        width: 100%;
+        padding: 0px;
+        top: 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        overflow: scroll;
+       z-index: 9009;
+    }
+} 
+
+@media screen and (max-width:480px){
+
+  
+    .mens-section-start{
+        position: relative;
+     
+        left: 0px;
+        overflow: hidden;
+        
+       width: 100%;
+    }
+
+.widget_search{
+
+height: 20px;
+width:05px;
+display: flex;
+
+flex-direction: column;
+float: right;
+position: relative;
+
+
+}
+.actual-container-section{
+
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+#heading-mens-sec{
+    text-align: center;
+    text-transform: uppercase;
+    color: #d8aa59;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 30px;
+    position: relative;
+    top: 20px;
+    margin: 0px;
+  
+
+}
+
+
+.cards-container{
+
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    background-color:transparent;
+    
+    }
+
+
+
+    .sidebar-section{
+
+        width: 100%;
+        position: relative;
+        top: -90px;
+        background-color: transparent;
+        right: 0px;
+        margin: 10px;
+     
+      
+        }
+
+
+
+        .card-size>div{
+            
+            width: 270px;
+        
+        }
+        
+
+        .pagination_menu>li>a{
+            font-size: 15px;
+            width: 28px;
+            height: 31px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        
+        .pagination_menu>li{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            
+        }
+
+        .pagination_menu{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            width: 100%;
+        }
+
+        .checklistwidget{
+            display: none;
+        }
+
+
+       
+
+        .tl_footer_social_section {
+            top: -0px;
+            width: 100%;
+            background-color: #d8aa59;
+           position: relative;
+          
+        }
+
+        .tl_sidebar_area{
+            width: 100%;
+        }
+
+
+      .filterbox>h3{
+       width: 120px;
+        height: 60px;
+        
+      }
+
+        .onfull{
+            display: block;
+        }
+
+
+        .widgettitle{
+            
+            height: 30px;
+            background-color: #d8aa59;
+            width:100%;
+            font-size:18px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            gap: 10px;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            box-shadow: 2px 2px 10px black;
+            transition: all 300ms;
+            border-radius: 5px;
+            
+        }
+
+        .widgettitle:hover{
+            box-shadow: 3px 2.5px 15px black;
+        }
+
+        .widget-title{
+            width: 25px;
+            height: 20px;
+        }
+
+        .filterbox{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            flex: 1;
+        }
+        .filter_amount_wrap{
+           display: flex;
+           flex-direction: column;
+           position: relative;
+           width: 100%;
+           justify-content: space-evenly;
+           gap: 30px;
+           height: 100%;
+
+       
+        }
+
+        .slider_range{
+            width: 120px;
+            position: relative;
+        }
+
+       
+        .checklist_category{
+          
+            
+            background-color: transparent;
+            
+            overflow: hidden;
+            max-height: 0px;
+            width: 100%;
+            padding: 0px;
+            top: 20px;
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            transition:all 600ms;
+          
+           
+        }
+
+
+        .checklist_category.checkboxoff{
+            max-height:800px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            transition:all 1600ms;
+           
+     
+        }
+
+            .checkbox_design{
+                
+                height: 30px;
+                background-color: #d8aa59;
+                width:130px;
+             
+                transition:all 300ms ;
+                box-shadow: 2px 2px 10px black;
+                border-radius: 5px;
+    
+                position: relative;
+                
+            } 
+
+            .checkcat{
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+                justify-content: center;
+                width: 100%;
+                align-items: center;
+                float: left;
+                text-align: center;
+                position: relative;
+               
+               
+            }
+         
+
+            .checkbox_design:hover{
+                transform: scale(1.1);
+                transition:all 300ms ;
+            }
+
+            .checkbox_design>a>h3{
+                color: black;
+                font-size: 20px;
+               
+                width:100%;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 5px;
+            }  
+
+            .widgetselectfield{
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+                align-content: center;
+                align-self: center;
+               
+                position: relative;
+                gap: 10px;
+                padding: 10px;
+                cursor: pointer;
+                
+        
+               
+            }
+
+
+
+}
+
+
+
+
+
+
+
+  /* @media only screen and (min-width:481px) and (max-width:767px) {
+    
+   
+
+.mens-section-start{
+    position: relative;
+    left: -100px;
+    right: -30px;
+    width:740px;
+    top:0px; 
+}
+
+
+.actual-container-section{
+display: flex;
+justify-content: space-between;
+width:700px;
+top: -85px;
+padding:0px;
+position: relative;
+margin: 0px;
+left: 0px;
+margin-right: 0px;
+}
+
+
+
+.ncard{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+
+
+.cards-container{
+ top: 80px;
+ width: 70%;
+ left: -50px;
+    
+    position: relative;
+    }
+
+
+
+
+    .sidebar-section{
+
+        width: 25%;
+    
+       right:-7%;
+        background-color: transparent;
+        position: absolute;
+
+        
+        }
+
+
+
+        .card-size>div{
+            
+            width: 190px;
+            height: 400px;
+          
+
+        
+        }
+        
+
+        .pagination_menu>li>a{
+            font-size: 15px;
+            width: 20px;
+            height: 31px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        
+        .pagination_menu>li{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            
+        }
+
+        .pagination_menu{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            width: 100%;
+        }
+} */
