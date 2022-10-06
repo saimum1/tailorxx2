@@ -51,18 +51,18 @@
 
 .cards-container{
 
-flex: 2;
+flex: 3;
 width:100%;
 display: flex;
 gap: 10px;
 background-color:transparent;
-left: 9px;
+left: 12px;
 position: relative;
 
 }
 
 .sidebar-section{
-flex: 1;
+flex:1;
 width:100%;
 right: 0px;
 background-color: transparent;
@@ -72,8 +72,8 @@ position: relative;
 
 
 .card-size>div{
-    height: 400px;
-    width: 220px;
+    height: 495px;
+    width: 320px;
 
 }
 
