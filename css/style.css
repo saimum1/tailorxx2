@@ -5088,5 +5088,88 @@ gap: 5px;
             color: #484848;
         }
 
+        .cng-btn{ 
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            padding:px;
+            margin: 0px auto;
+            background:url('../images/bg/header_bg.jpg') no-repeat;
+            align-items: center;
+            font-size: 12px;
+            gap: 5px;
+           
+        }
+        .cng-btn>h1{
+            color: #FFFFFF;
+            font-size: 15px;
+            
+        }
+        
+       .sliderrow{
+        display: flex;
+        flex-direction: column;
+        
+       }
+
+       .itemheading{
+        font-size: 29px;
+       }
+
+    .commentdiv{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+       
+
 
     }
+
+    .commentshow{
+        width: 100%;
+        height: 100%;
+        flex:1;
+        overflow: scroll;
+        display: flex;
+        flex-direction: column;
+        position: sticky;
+    }
+
+    .commentfield{
+        width: 100%;
+        flex:1;
+        height: 100%;
+        overflow: hidden;
+        padding: 10px;
+    }
+
+
+    .cmtshow{
+        width: 100%;
+        height:600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 25px;
+     
+
+    }
+
+
+.forcomments{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100%;
+}
+
+}
+    
