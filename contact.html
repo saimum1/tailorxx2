@@ -25,7 +25,15 @@ Version: 1.0.0
 	<!-- main style -->
 	<!-- favicon-icon -->
 	<link rel="icon" type="image/png" href="images/icon/favicon.png">
+	<link rel="stylesheet" href="./css/contactpage.css">
 	<!-- favicon-icon -->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <!-- END HEAD -->
 <!--body start-->
@@ -81,41 +89,33 @@ Version: 1.0.0
 </div>
 <!-- login signup popup End -->
 <!-- header menu start -->
-<div class="tl_header_section">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
+<div class="tl_header_section" style="width:100% ; position: relative; margin: 0; padding: 0;">
+	<div class="container" style="width:100% ; position: relative; margin: 0; padding: 0;">
+		<!-- <div class="row header-row"> -->
+			<div class="col-lg-12 header-cont">
 				<div class="header_top_area">
-					<div class="tl_top_menu top_left_menu">
-						<ul>
-							<li><a href="#" class="login_popup"><i class="fa fa-user"></i>login</a></li>
-							<li><a href="checkout.html"><i class="fa fa-shopping-cart"></i>checkout</a></li>
-						</ul>
-					</div>
-					<div class="tl_top_menu top_right_menu">
-						<ul>
-							<li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i>wishlist</a></li>
+					<div class="tl_top_menu top_left_menu grid-item">
 
-							<li><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Cart</a></li>
-							<!--<li>
-								<div class="select_wrapper">
-									<select>
-										<option value="0">Select</option>
-										<option value="1">USD</option>
-										<option value="2">Euro</option>
-										<option value="3">inr</option>
-										<option value="4">Pound</option>
-									</select>
-								</div>
-							</li>-->
-						</ul>
+					
+						<div class="header_menu_1"><a href="about.html">About DorjiKhana</a></div>
+						<div class="header_menu_1"><a href="#">Become A Partner</a></div>
+						
+					</div>
+					<div class=" grid-item2">
+
+						<div class="header_menu_2"><a href="womens.html">Switch Language</a></div>
+						<div class="header_menu_2"><a href="contact.html">Contact Us</a></div>
+						<div class="header_menu_2"><a href="contact.html">Login</a></div>
+						<div class="header_menu_2"><a href="contact.html">Register</a></div>
+						<div class="header_menu_2"><a href="womens.html">Product</a></div>
+						
 					</div>
 				</div>
 				<div class="menu_section_wrap">
 					<!-- Site logo Start -->
 					<div class="tl_logo">
 						<a href="index.html">
-							<img class="img-responsive" src="images/logo_small.png" alt="logo">
+							<img class="img-responsive" src="images/logo_small.png" alt="tailor-logo">
 						</a>
 					</div>
 					<!-- Site logo End -->
@@ -125,63 +125,81 @@ Version: 1.0.0
 						<i></i>
 						<i></i>
 					</div>
+
+					<div class="nav_toggle_2" onclick="handleclickedbtn()">
+						<i></i>
+						<i></i>
+						<i></i>
+					</div>
 					<!-- nav toggle -->
 					<!-- Navigation Menu Start -->
 					<div class="header_right_menu">
 						<nav class="menu_section">
+
 							<ul class="menu"> 
 								<li>
-									<a href="index.html">Home</a>
+									<a href="index.html" class="active">HOME</a>
+								</li>	
+								<li>
+									<a href="#">DRESS</a>
+									<ul class="sub-menu">
+										<li><a href="mens.html">Men</a></li>
+										<li><a href="womens.html">Women</a></li>
+										<li><a href="blog_single.html">Kid</a></li>
+									  </ul>
 								</li>
 								<li>
-									<a href="about.html">About us</a>
+									<a href="#">CLOTH</a>
+										<ul class="sub-menu">
+											<li><a href="mens.html">Men</a></li>
+											<li><a href="womens.html">Women</a></li>
+											<li><a href="blog_single.html">Kid</a></li>
+								  		</ul>
 								</li>
 								<li>
-									<a href="mens.html">Mens</a>
+									<a href="mens.html">STITCH</a>
+										<ul class="sub-menu">
+											<li><a href="mens.html">Men</a></li>
+											<li><a href="womens.html">Women</a></li>
+											<li><a href="kid.html">Kid</a></li>
+								  		</ul>
 								</li>
-								<li>
-									<a href="womens.html">Womens</a>
-								</li>
+								
 							</ul>
+
 						</nav>
 						<div class="tl_center_logo">
 							<a href="index.html">
-								<img class="img-responsive" src="images/logo.png" alt="logo">
+								<img class="img-responsive" src="images/logo.png" alt="tailor-logo">
 							</a>
 						</div>
+
+
 						<nav class="menu_section right_nav">
+
 							<ul class="menu"> 
-								<li>
-									<a href="gallery.html">Gallery</a>
-								</li>
-								<li>
-									<a href="blog.html">Blog</a>
-									<!--<ul class="sub-menu">
-										<li><a href="blog.html">Blog Default</a></li>
-										<li><a href="blog_single.html">Blog Single</a></li>
-									</ul>-->
-								</li>
-								<li>
-									<a href="team.html">Team</a>
 
-									<!--<ul class="sub-menu">
-										<li><a href="team.html">Team</a></li>
-										<li><a href="cart.html">cart</a></li>
-										<li><a href="product_details.html">Product Details</a></li>
-										<li><a href="checkout.html">Checkout</a></li>
-									</ul>-->
-
-								</li>
 								<li>
-									<a href="contact.html" class="active">Contact</a>
+									<a href="#">ACCESSORIES</a>
+									   <ul class="sub-menu">
+										<li><a href="mens.html">Men</a></li>
+										<li><a href="womens.html">Women</a></li>
+										<li><a href="kid.html">Kid</a></li>
+									   </ul>
 								</li>
+
+								<li><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i>CART</a></li>
+								
+								<li><a href="checkout.html"><i class="fa fa-shopping-cart"></i>CHECKOUT</a></li>
+
+						
 							</ul>
 						</nav>
 					</div>
 					<!-- Navigation Menu End -->
 				</div>
 			</div>
-		</div>
+		<!-- </div> -->
 	</div>
 </div>
 <!-- header menu end -->
@@ -209,10 +227,157 @@ Version: 1.0.0
 
 
 <!-- Contact Form section Start -->
-<div class="main_section pad_top_80 contact_form_section">
+
+
+
+
+<div class="cotantpagecontainer">
+
+	<div class="uppercontainer">
+
+		<div class="leftcontainer">
+			<div>
+				<div class="section_heading">
+					<h1>Get In Touch</h1>
+					<br>
+					<p style="text-align:justify;">But I must explain to you how all this mistaken 
+						idea of denouncing pleasure and praising pain was
+						 born and I will give you a complete.
+						Lorem, ipsum dolor sit amet consectetur adipisicing
+						 elit. Ipsum odio voluptas exercitationem facilis 
+						 sequi, quis nemo ut consequuntur doloribus molestiae 
+						 dolor eos expedita laboriosam placeat fuga? Sunt
+						  porro dolore quia.
+						  But I must explain to you how all this mistaken 
+						idea of denouncing pleasure and praising pain was
+						 born and praising pain was
+						 born and I will give you a complete.
+						Lorem, ipsum dolor sit amet consectetur adipisicing
+						 elit. Ipsum odio voluptas exercitationem facilis 
+						 sequi, quis nemo ut consequuntur doloribus molestiae 
+						 dolor eos expedita laboriosam placeat fuga? Sunt
+						  porro dolore quia.
+						  But I must explain to you how all this mistaken 
+						idea of denouncing pleasure and praising pain was
+						 born and praising pain was
+						 born and I will give you a complete.
+						Lorem, ipsum dolor sit amet consectetur adipisicing
+						 elit. Ipsum odio voluptas exercitationem facilis 
+						 sequi, quis nemo ut consequuntur doloribus molestiae 
+						 dolor eos expedita laboriosam placeat fuga? Sunt
+						  porro dolore quia.
+						  But I must explain to you how all this mistaken 
+						idea of denouncing pleasure and praising pain was
+						 born 
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="rightcontainer">
+			
+			<div class="elementcontainer">
+				<div  class="iconcontainer">
+					
+					<img src=" https://th.bing.com/th/id/OIP.YeJi4ui28HrXjDUxr_61twHaHa?pid=ImgDet&rs=1"
+					alt="email"
+					class="elementicon"
+					/>
+					<h4>someone@gmail.com</h4>
+				</div>
+				
+				<div class="iconcontainer">
+
+					<a href= "mailto:email@example.com">
+							<img src="https://th.bing.com/th/id/R.28c1a9bf46bfaa626c7645de143c386d?rik=24eBX5eGl6KgbQ&riu=http%3a%2f%2fcivica-lda.com%2fcareer_files%2fimg-sprite2.png&ehk=aBUWOqRJJIbr84rWiiuz%2fg64JL0hO%2bw%2bk5%2fhQqPiAmE%3d&risl=&pid=ImgRaw&r=0"
+						alt="email"
+						class="elementicon"
+						/>
+						</a>
+						
+						
+					</div>
+			
+
+			</div>
+			<div class=" elementcontainer">
+
+				<div class="iconcontainer">
+					<img src="https://th.bing.com/th/id/R.459f1960fed6535c83b09b0179880fdc?rik=%2fxVQHMnhH%2bQUzg&riu=http%3a%2f%2fwww.driveactiondigital.com%2fwp-content%2fuploads%2f2013%2f05%2ffb_icon_325x325-150x150.png&ehk=aYcsHaND2eAaEtrHmFfM2HeojZDcfLz9eiuieNvwKDQ%3d&risl=&pid=ImgRaw&r=0"
+				alt="email"
+				class="elementicon"
+				/>	
+				<h4>contact@dorjikhana.com</h4>
+				</div>
+					
+				<div class="iconcontainer">
+
+					<a href=" "  >
+						<img src="https://th.bing.com/th/id/R.459f1960fed6535c83b09b0179880fdc?rik=%2fxVQHMnhH%2bQUzg&riu=http%3a%2f%2fwww.driveactiondigital.com%2fwp-content%2fuploads%2f2013%2f05%2ffb_icon_325x325-150x150.png&ehk=aYcsHaND2eAaEtrHmFfM2HeojZDcfLz9eiuieNvwKDQ%3d&risl=&pid=ImgRaw&r=0"
+						alt="email"
+						class="elementicon"
+						/>	
+					 </a>
+				
+				</div>
+					
+				
+
+			</div>
+		</div>
+
+	</div>
+
+
+	<div class="lowercontainer">
+
+		
+		<div class="leftcontainer">
+			<h1>Contact With Us</h1>
+			<div class="contactformwrap">
+				
+				<span><i class="fa-solid fa-phone-volume"></i></span>
+				<span><h4>+88 01985 086848</h4></span>
+
+				
+			</div>
+
+
+			<div class="contactformwrap">
+				
+				<i class="fa-solid fa-location-dot"></i>
+				<h4>Purobi Cinema Hall Market, Mirpur-1216</h4>
+
+				
+			</div>
+			
+	
+
+		</div>
+
+		<div class="rightcontainer">s Lorem ipsum, dolor sit amet consectetur 
+			adipisicing elit. Officiis, facilis doloremque. Officia, distinctio! 
+			Laboriosam, facilis possimus perferendis facere 
+			iste explicabo quia soluta dolores placeat 
+			sed dolore accusamus debitis id ex.</div>
+	</div>
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="main_section pad_top_80 contact_form_section">
 	<div class="container">
 		<div class="row">
-			<!-- section heading -->
+			
 			<div class="col-lg-6 col-md-8 col-lg-offset-3 col-md-offset-2 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
 				<div class="section_heading">
 					<h1>Get In Touch</h1>
@@ -222,7 +387,7 @@ Version: 1.0.0
 					<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complet.</p>
 				</div>
 			</div>
-			<!-- section heading -->
+		
 			<div class="social_bg">
 				<div class="col-lg-8 col-md-7 col-sm-12 col-xs-12 wow fadeInLeft" data-wow-delay="0.2s">
 					<div class="contact_form_wrap">
@@ -346,7 +511,7 @@ Version: 1.0.0
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 <!-- Contact Form section End -->
 <!-- Map section Start -->
 <div class="map_section wow fadeInUp" data-wow-delay="0.2s">
@@ -550,6 +715,13 @@ Version: 1.0.0
 		google.maps.event.addDomListener(window, 'load', initialize);
 	});
 </script>
+
+
+<script src="js/nav2.js"></script>
+<script src="js/jquery.js"></scrip> 
+	<!-- jquery library js -->
+	<!-- bootstrap js file-->
+	<script src="js/bootstrap.min.js"></script> 
 <!-- google map script -->
 <!-- map script -->
 </body>

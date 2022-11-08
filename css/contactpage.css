@@ -1,0 +1,104 @@
+.cotantpagecontainer{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+    padding-top: 20px;
+}
+
+
+.uppercontainer{
+    display: flex;
+
+}
+
+.leftcontainer{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    text-align:center ;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding:0 25px;
+
+}
+
+
+.rightcontainer{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+    text-align: justify;
+    
+}
+
+.elementcontainer{
+    width: 100%;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display:flex ;
+    gap: 69px;
+
+}
+
+
+.elementicon{
+    width: 125px;
+    height: 120px;
+    border: none;
+   
+}
+
+
+
+.iconcontainer{
+    border: 0.5px solid rgba(0, 0, 0, 0.209);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 300ms;
+    width: 250px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.iconcontainer:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 2px  8px black;
+}
+
+
+
+
+
+.lowercontainer{
+    display: flex;
+    
+}
+
+
+.contactformwrap{
+    display: flex;
+    
+    margin: 5px;
+    font-size: 25px;
+    gap: 9px;
+    text-align: start;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+
+
+
